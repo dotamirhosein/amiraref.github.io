@@ -47,7 +47,7 @@ highlight_theme = "base16-ocean-dark"
 # The Kita theme style config.
 [extra]
 # Enable KaTex math formula support globally.
-math = false
+math = true
 # Enable mermaid support globally.
 mermaid = false
 # Enable comment support globally.
@@ -84,12 +84,24 @@ name = "github"
 url = "https://github.com/amiraref"
 
 [[extra.profile.social]]
-name = "mastodon"
-url = "https://mas.to/@amiraref"
+name = "codeberg"
+url = "https://codeberg.org/amiraref"
+
+[[extra.profile.social]]
+name = "stackoverflow"
+url = "https://stackoverflow.com/users/15430200"
 
 [[extra.profile.social]]
 name = "linkedin"
 url = "https://linkedin.com/in/amiraref"
+
+[[extra.profile.social]]
+name = "mastodon"
+url = "https://mas.to/@amiraref"
+
+[[extra.profile.social]]
+name = "telegram"
+url = "https://t.me/amir_720"
 
 [[extra.profile.social]]
 name = "rss"
@@ -104,9 +116,9 @@ url = "$BASE_URL/rss.xml"
 # name = "Archive"
 # url = "$BASE_URL/archive"
 
-[[extra.menu]]
-name = "Tags"
-url = "$BASE_URL/tags"
+# [[extra.menu]]
+# name = "Tags"
+# url = "$BASE_URL/tags"
 
 # [[extra.menu]]
 # name = "About"
