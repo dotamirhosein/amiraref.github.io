@@ -104,6 +104,10 @@ name = "telegram"
 url = "https://t.me/amir_720"
 
 [[extra.profile.social]]
+name = "email"
+url = "mailto:amiraref808@gmail.com"
+
+[[extra.profile.social]]
 name = "rss"
 url = "$BASE_URL/rss.xml"
 
