@@ -1,7 +1,7 @@
 +++
 title = "Tracking dotfiles, What is it and Why ?"
 date = "2024-05-14"
-description = "a beginner guide for keep and traking dotfiles"
+summary = "a beginner guide for keep and traking dotfiles"
 [taxonomies]
 tags = ["linux", "unix"]
 # author = "Amir Aref"
