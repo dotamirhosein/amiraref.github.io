@@ -112,6 +112,10 @@ name = "rss"
 url = "$BASE_URL/rss.xml"
 
 # The top menu.
+[[extra.menu]]
+name = "Blog"
+url = "$BASE_URL/blog"
+
 # [[extra.menu]]
 # name = "Projects"
 # url = "$BASE_URL/projects"
@@ -120,9 +124,9 @@ url = "$BASE_URL/rss.xml"
 # name = "Archive"
 # url = "$BASE_URL/archive"
 
-# [[extra.menu]]
-# name = "Tags"
-# url = "$BASE_URL/tags"
+[[extra.menu]]
+name = "Tags"
+url = "$BASE_URL/tags"
 
 # [[extra.menu]]
 # name = "About"

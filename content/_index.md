@@ -1,4 +1,7 @@
 +++
-sort_by = "date"
-paginate_by = 5
+path = "/"
+title = "Recent Posts"
+[extra]
+section_path = "blog/_index.md"
+max_posts = 4
 +++

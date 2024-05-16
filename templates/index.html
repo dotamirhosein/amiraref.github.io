@@ -14,7 +14,18 @@
       {% include "partials/profile.html" %}<!---->
       {% endif %}<!---->
 
-      {% include "partials/page_list.html" %}<!---->
+      <!-- Posts List -->
+      {% if section.extra.section_path -%}
+          {% set extra_section = get_section(path=section.extra.section_path) %}
+      {% endif -%}
+
+      {% if section.extra.section_path -%}
+          {% set path = section.extra.section_path | replace(from="/_index.md", to = "") %}
+      {% else -%}
+          {% set path = section.path %}
+      {% endif -%}
+
+      {% include "partials/main_page_posts_list.html" %}<!---->
       {% endblock main %}
     </main>
 
