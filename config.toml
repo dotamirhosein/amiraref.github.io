@@ -87,9 +87,9 @@ url = "https://github.com/amiraref"
 name = "codeberg"
 url = "https://codeberg.org/amiraref"
 
-[[extra.profile.social]]
-name = "stackoverflow"
-url = "https://stackoverflow.com/users/15430200"
+# [[extra.profile.social]]
+# name = "stackoverflow"
+# url = "https://stackoverflow.com/users/15430200"
 
 [[extra.profile.social]]
 name = "linkedin"
