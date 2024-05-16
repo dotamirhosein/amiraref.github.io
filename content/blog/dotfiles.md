@@ -5,6 +5,9 @@ description = "a beginner guide for keep and traking dotfiles"
 [taxonomies]
 tags = ["linux", "unix"]
 # author = "Amir Aref"
+
+[extra]
+cover_image = "images/dotfiles.png"
 +++
 
 # What are the dotfiles ?
