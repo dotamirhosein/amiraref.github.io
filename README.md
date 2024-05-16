@@ -6,11 +6,12 @@ Theme : [kita](https://github.com/st1020/kita)
 
 
 ## TODO :
-- [ ] add about page (my contact information, skills that i have, etc)
-- [ ] add projects page (the projects that i made)
-- [ ] add my resume file
-- [ ] add my email address
-- [ ] add contents and menu bar (`tags`, `archive`)
-- [ ] add content's licence
+- [ ] add **about page** (my contact information, skills that i have, etc)
+- [ ] add **projects** page (the projects that i made)
+- [ ] add my **resume** file
+- [x] add my **email** address
+- [x] add contents and menu bar (`tags`, `archive`)
+- [ ] use a feature-full theme as a **porfoilio** website (not just **blog**)
+- [ ] add content's **LICENCE**
 - [ ] support **RTL** languages content
-- [ ] support multi-language
+- [ ] support **multi-language**
