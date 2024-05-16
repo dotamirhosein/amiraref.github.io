@@ -25,10 +25,11 @@
   <meta name="theme-color" />
 
   <!-- Author -->
-  {% if page %}
+  {% if page %} {% if page.description %} {% set description = page.description
+  %} {% else %} {% set description = page.description %} {% endif %}
   <meta
     name="description"
-    content="{{ page.summary | default(value=page.title) | safe }}"
+    content="{{ description | default(value=page.title) | safe }}"
   />
   <meta
     name="author"

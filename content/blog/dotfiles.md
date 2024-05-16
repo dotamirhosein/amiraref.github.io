@@ -1,13 +1,12 @@
 +++
 title = "Tracking dotfiles, What is it and Why ?"
 date = "2024-05-14"
-summary = "a beginner guide for keep and traking dotfiles"
+description = "a beginner guide for keep and traking dotfiles"
 [taxonomies]
 tags = ["linux", "unix"]
-# author = "Amir Aref"
-
 [extra]
 cover_image = "images/dotfiles.png"
+author = "Amir Hasan Aref Asl"
 +++
 
 # What are the dotfiles ?
