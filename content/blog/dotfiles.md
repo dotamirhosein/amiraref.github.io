@@ -44,9 +44,7 @@ mkdir vim
 mv ~/.vimrc ~/.dotfiles/vim/
 ```
 
-{% admonition(type="tip", title="Tip") %}
-the name of subdirectory can be anything you want, but it's better to use a related name to make the files structure more clear.
-{% end %}
+{{ admonition(type="tip", title="Tip", text="the name of subdirectory can be anything you want, but it's better to use a related name to make the files structure more clear.") }}
 
 You should consider that the **stow** will follow the same folder structure that is placed in home directory.  
 For example the neovim's config folder that placed in `~/.config/nvim/` would be like : `~/.dotfiles/nvim/.config/nvim/`.  
@@ -106,9 +104,7 @@ git commit -m "Initial Commit"
 git push origin master
 ```
 
-{% admonition(type="info", title="Note") %}
-if you want to delete the symlinks for a folder, just use the `stow -D folder_name` command in the `.dotfiles` directory. 
-{% end %}
+{{ admonition(type="info", title="Note", text="if you want to delete the symlinks for a folder, just use the `stow -D folder_name` command in the `.dotfiles` directory.") }}
 
 <br>
 
